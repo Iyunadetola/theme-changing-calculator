@@ -142,18 +142,23 @@ form .display .display-inp{
     border: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
 
 .container{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 }
 .calculator form input{
-    width: 85px;
-    height: 60px;
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
 }
 form .reset-equal .reset{
-    width: 190px;
+    width: 145px;
+}
+form .reset-equal .equal{
+    width: 143px;
 }
 
 }

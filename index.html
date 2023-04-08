@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="bodyy">
+   <div class="container">
+        <div class="calculator">
+            <div class="nav">
+                <div class="calc"><h5>calc</h5></div>
+                <div class="theme"><p class="themee" >THEME</p></div>
+                <div class="theme-change">
+                    <div class="p-numbers" >
+                            <p class="one" >1</p>
+                            <p class="two" >2</p>
+                            <p class="three" >3</p>
+                        </div>
+                        <div class="icon" >  
+                             
+                            <i id="icon-two" class="fa-solid fa-circle" style="color: #f05705;"></i>  
+                            <i id="icon-three" class="fa-solid fa-circle" style="color: #f05705;"></i>  
+                            <i id="icon-four" class="fa-solid fa-circle" style="color: #f05705;"></i>  
+                            
+                            
+                        </div> 
+                
+
+                </div>
+                </div>
+
+                <form action="">
+                    <div class="display" >
+                        <input  class="display-inp" type="text"name="display" placeholder="0" >
+                    </div>
+                    <div class="number-del" >
+                        <input type="button" value="7" id="but" onclick="display.value += '7' " >
+                        <input type="button" value="8" id="butt" onclick="display.value += '8' " >
+                        <input type="button" value="9" id="buttt" onclick="display.value += '9' " >
+                        <input class="del" type="button" value="DEL" onclick="display.value= display.value.toString().slice(0,-1)" >
+                    </div>
+
+                    <div>
+                        <input type="button" value="4" id="buut" onclick="display.value += '4' " >
+                        <input type="button" value="5" id="buuut" onclick="display.value += '5' " >
+                        <input type="button" value="6" id="buuuut" onclick="display.value += '6' " >
+                        <input type="button" value="+" id="buuuuut" onclick="display.value += '+' ">
+                    </div>
+                    <div>
+                        <input type="button" value="1" id="buts" onclick="display.value += '1' " >
+                        <input type="button" value="2" id="butss" onclick="display.value += '2' " >
+                        <input type="button" value="3" id="butsss" onclick="display.value += '3' " >
+                        <input type="button" value="-" id="butssss" onclick="display.value += '-' " >
+                    </div>
+
+                    <div>
+                        <input type="button" value="." id="butz" onclick="display.value += '.' " >
+                        <input type="button" value="0" id="butzz" onclick="display.value += '0' ">
+                        <input type="button" value="/" id="butzzz" onclick="display.value += '/' ">
+                        <input type="button" value="*" id="butzzzz" onclick="display.value += '*' " >
+                    </div>
+                    <div class="reset-equal" >
+                        <input    type="button" value="RESET" class="reset" onclick="display.value = '' " >
+                        <input class="equal"  type="button" value="=" onclick="display.value = eval(display.value) " >
+                    </div>
+                    
+                </form>
+            </div>
+        
+        </div>
+   </div> 
+   <script src="./script.js"></script>
+</body>
+</html>

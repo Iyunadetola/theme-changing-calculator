@@ -13,21 +13,7 @@ let displayInput = document.querySelector('.display-inp')
 let one = document.querySelector('.one')
 let two = document.querySelector('.two')
 let three = document.querySelector('.three')
-let but = document.getElementById('but')
-let butt = document.getElementById('butt')
-let buttt = document.getElementById('buttt')
-let buut = document.getElementById('buut')
-let buuut = document.getElementById('buuut')
-let buuuut = document.getElementById('buuuut')
-let buuuuut = document.getElementById('buuuuut')
-let buts = document.getElementById('buts')
-let butss = document.getElementById('butss')
-let butsss = document.getElementById('butsss')
-let butssss = document.getElementById('butssss')
-let butz = document.getElementById('butz')
-let butzz = document.getElementById('butzz')
-let butzzz = document.getElementById('butzzz')
-let butzzzz = document.getElementById('butzzzz')
+
 
 
 
@@ -76,7 +62,7 @@ secondIcon.addEventListener('click', ()=>{
 thirdIcon.addEventListener('click', ()=>{
     thirdIcon.style.display ='none'
     fourthIcon.style.display ='block'
-    fourthIcon.style.paddingLeft = '99px'
+    // fourthIcon.style.paddingLeft = '99px'
     calcBody.style.backgroundColor = 'hsl(268, 75%, 9%)'
     calc.style.color = 'hsl(52, 100%, 62%)'
     themee.style.color = 'hsl(52, 100%, 62%)'
@@ -89,36 +75,8 @@ thirdIcon.addEventListener('click', ()=>{
     displayInput.style.color = 'hsl(52, 100%, 62%)'
     equal.style.backgroundColor = 'hsl(176, 100%, 44%)'
     equal.style.Color = 'black'
-    // but.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // but.style.color = 'hsl(52, 100%, 62%)'
-    // butt.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butt.style.color = 'hsl(52, 100%, 62%)'
-    // buttt.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // buttt.style.color = 'hsl(52, 100%, 62%)'
-    // buut.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // buut.style.color = 'hsl(52, 100%, 62%)'
-    // buuut.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // buuut.style.color = 'hsl(52, 100%, 62%)'
-    // buuuut.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // buuuut.style.color = 'hsl(52, 100%, 62%)'
-    // buuuuut.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // buuuuut.style.color = 'hsl(52, 100%, 62%)'
-    // buts.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // buts.style.color = 'hsl(52, 100%, 62%)'
-    // butss.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butss.style.color = 'hsl(52, 100%, 62%)'
-    // butsss.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butsss.style.color = 'hsl(52, 100%, 62%)'
-    // butssss.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butssss.style.color = 'hsl(52, 100%, 62%)'
-    // butz.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butz.style.color = 'hsl(52, 100%, 62%)'
-    // butzz.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butzz.style.color = 'hsl(52, 100%, 62%)'
-    // butzzz.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butzzz.style.color = 'hsl(52, 100%, 62%)'
-    // butzzzz.style.backgroundColor = 'hsl(268, 47%, 21%)'
-    // butzzzz.style.color = 'hsl(52, 100%, 62%)'
+    
+    
 
 
     

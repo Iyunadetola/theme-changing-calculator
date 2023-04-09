@@ -145,21 +145,49 @@ form .display .display-inp{
 @media screen and (max-width: 375px) {
 
 .container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
+
 }
+.calculator{
+    width: 17em;
+    height: 80vh;
+
+}
+
 .calculator form input{
-    width: 60px;
-    height: 40px;
-    margin: 10px;
+    width: 43px;
+    height: 43px;
+    margin: 5px;
     font-size: 15px;
+    border-radius: 5px;
 }
 form .reset-equal .reset{
-    width: 145px;
+    width: 99px;
 }
 form .reset-equal .equal{
-    width: 143px;
+    width: 99px;
 }
+.theme{
+    padding-left: 30px;
+}
+
+.icon{
+    width: 70px;
+}
+form .display input{
+    height: 60px;
+}
+.theme-change .icon #icon-three{
+    padding-left: 20px;
+}
+.theme-change .icon #icon-four{
+    padding-left: 50px;
+}
+
+
+
+
 
 }
     

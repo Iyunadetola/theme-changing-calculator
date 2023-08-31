@@ -142,16 +142,16 @@ form .display .display-inp{
     border: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 
 .container{
-    height: 80vh;
+    height: 80%;
     width: 100%;
 
 }
 .calculator{
     width: 17em;
-    height: 80vh;
+    height: 60%;
 
 }
 
